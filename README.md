@@ -1,12 +1,16 @@
 ## 🏦 Proyecto Base de Datos 
 ## 📘 Descripción General
-
-
+Sistema para registrar y administrar información de personas en el sector 
 ## 🚀 Fases del Proyecto
-
-
+1. Preparación del entorno virtual.
+2. Configuración de conexión a base de datos.
+3. Desarrollo de Modelos y Controladores.
+4. Creación de Vistas HTML (Templates).
 ## 🧠 Competencias a Desarrollar
-
+Maneja entornos de desarrollo con Visual Studio Code y entornos virtuales.  
+Utiliza Git Bash para versionar proyectos y gestionar ramas.  
+Aplica estructuras básicas y avanzadas de Python en el tratamiento de datos.  
+Aplicación de conocimientos en Base de datos
 
 ## 🗂️ Estructura del Proyecto
 
