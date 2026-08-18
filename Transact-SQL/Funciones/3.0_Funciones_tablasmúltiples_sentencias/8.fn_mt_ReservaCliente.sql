@@ -47,4 +47,4 @@ SELECT
 	*,
 	GETDATE() as Fecha_Consulta,
 	cpam.fn_NombreCompletoPersona (104) as Estudiante
-FROM cpam.fn_MT_ReservasCliente (10)
+FROM cpam.fn_MT_ReservasCliente (10);
