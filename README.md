@@ -40,9 +40,11 @@ TurismoPeru_2026/
     ├── index.html
     └── insertar.html
 ```
-## 👨‍🏫 Autor
+👨‍💻 Autor
+Proyecto desarrollado aplicando conceptos de desarrollo web, Python (Flask) y bases de datos relacionales.
 
-Proyecto desarrollado aplicando conceptos de Big Data, Python y bases de datos NoSQL.
-Estudiante: Cristian Paul Alvarado Minchan 
-Base de datos:TURISMOPERU_CPAM
+Estudiante: Cristian Paul Alvarado Minchan
+
+Base de datos: TURISMOPERU_CPAM
+
 Fecha: 10.08.2026
