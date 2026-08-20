@@ -1,48 +1,44 @@
-## 🏦 Proyecto Base de Datos 
-## 📘 Descripción General
-Sistema para registrar y administrar información de personas en el sector 
-## 🚀 Fases del Proyecto
-1. Preparación del entorno virtual.
-2. Configuración de conexión a base de datos.
-3. Desarrollo de Modelos y Controladores.
-4. Creación de Vistas HTML (Templates).
-## 🧠 Competencias a Desarrollar
-Maneja entornos de desarrollo con Visual Studio Code y entornos virtuales.  
-Utiliza Git Bash para versionar proyectos y gestionar ramas.  
-Aplica estructuras básicas y avanzadas de Python en el tratamiento de datos.  
-Aplicación de conocimientos en Base de datos
+# 🏛️ Proyecto Sistema Turismo Perú
 
-## 🗂️ Estructura del Proyecto
+## 📘 Descripción General
+Sistema web desarrollado bajo el patrón arquitectónico Modelo-Vista-Controlador (MVC) para registrar, visualizar y administrar información de clientes y personas en el sector turismo.
+
+## 🚀 Fases del Proyecto
+1. Preparación del entorno virtual e instalación de dependencias.
+2. Configuración de conexión segura a la base de datos SQL Server.
+3. Desarrollo de la lógica de negocio (Modelos y Controladores).
+4. Creación e integración de interfaces de usuario (Vistas HTML/Templates).
+
+## 🧠 Competencias Desarrolladas
+* Manejo de entornos de desarrollo (Visual Studio Code) y entornos virtuales en Python.
+* Versionamiento de proyectos y gestión de ramas utilizando Git y GitHub.
+* Implementación del patrón de diseño MVC en aplicaciones web con Flask.
+* Integración y manipulación de Bases de Datos Relacionales (SQL Server) mediante Procedimientos Almacenados (T-SQL).
+
+## 📂 Estructura del Proyecto
 
 ```bash
-proyecto_bigdata/
-│
-├── data/
-│   └── bancos.csv
-│   └── base.csv
-│
-├── database/
-│   └── bancos_clean.csv
-│
-├── docs/
-│   └── cuentas_por_tipo.png
-│   └── distribucion_saldos.png
-│   └── promedio_saldo_sucursal.png
-│
-├── scripts/
-│   └── 1_Create_files.ipynb
-│   └── 2_Create_base_files.ipynb
-│   └── 3_Random_data_banco.ipynb
-│   └── 4_ETL_bank.ipynb
-│   └── 5_Integrated_NoSQL.ipynb
-│   └── 6_Visualization_report.ipynb
-│
-├── main.ipynb
-├── README.md
-```
-
-## 🧰 Requisitos
-
+TurismoPeru_2026/
+├── app.py                 
+├── config.py              
+├── requirements.txt       
+├── .gitignore             
+├── controllers/           
+│   ├── listar_controller.py
+│   └── persona_controller.py
+├── database/              
+│   └── conexion.py
+├── models/                
+│   ├── cliente.py
+│   └── persona.py
+├── procedures/            
+│   └── script_base_datos.sql
+├── scripts/               
+│   └── create_files.py
+└── templates/             
+    ├── clientes.html
+    ├── index.html
+    └── insertar.html
 ```
 ## 👨‍🏫 Autor
 
